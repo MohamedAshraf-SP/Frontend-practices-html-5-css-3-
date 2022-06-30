@@ -1,0 +1,952 @@
+*{
+    font-size: 15px;
+   font-family:cursive;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section
+{
+    width: 100%;
+    padding: 50px 0;
+
+}
+
+.container{
+   
+    margin-left: auto;
+    margin-right: auto;
+
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-size: 25px;
+    text-align: left;
+    text-transform: capitalize;
+   
+}
+p{
+    text-align: justify;
+}
+/*****************************************************************/
+#secA {
+    padding: 50px 0;
+    background-image: url('../images/banner.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 20px;
+}
+#secA div{
+width:100%;
+
+}
+#secA div nav{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+   margin-top: -20px;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0,1);
+}
+#secA div nav span{
+    display: block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+    overflow: hidden; 
+}
+#secA div nav span a{
+    flex-grow: 1.5;
+    
+}
+#secA div nav span a i{
+    color: #fff;
+    font-size: 20px;
+    margin: 5px 10px;
+    border: 1px solid rgba(255, 204, 0, 0.8);;
+    border-radius: 50%;
+    padding:6px;
+}
+#secA div nav span label{
+    text-align: right;
+    margin: 5px 10px;
+    flex-grow: 10;
+}
+#secA div nav span label i{
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid rgba(255, 204, 0, 0.8);;
+    padding:5px;
+    border-radius: 5%;
+   
+    
+}
+
+#secA div nav input{
+    display:none;
+}
+#secA div ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    padding:0% 3% 0% 3%;
+    background-color: rgba(0, 0, 0,.7);
+    max-height: 0;
+    z-index:1;
+    overflow: hidden;
+    transition: 2s ease;
+}
+
+#secA div nav input:checked+ul{
+    background-color: rgba(255, 204, 0, 0.1);
+    max-height:500px;
+}
+#secA div ul li{
+   
+    overflow: none;
+    transition:3s ease-out;
+    border-bottom: 1px solid rgba(122, 99, 7, 0.7);
+    border-top: 1px solid rgba(122, 99, 7, 0.7);
+}
+#secA div ul li a:hover{
+    background-color: rgba(255, 204, 0, 0.8);
+    color: #000;
+}
+#secA div ul li  a{
+    width: 100%;
+    font-size: 15PX;
+    padding: 10px 0;
+    font-weight:bold;
+    text-transform: uppercase;
+    display:block;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+#secA div nav input:checked+ul li{
+   
+    color: rgba(255, 187, 0, 0.342);
+}
+#secA div {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left ;
+}
+#secA div:nth-child(2){
+    padding-left: 10px;
+    width: 100%;
+    
+    
+}
+#secA div:nth-child(2) h1:first-of-type{
+    text-align: left;
+}
+#secA div:nth-child(2) h1:nth-of-type(2){
+    text-align: left;
+    color: salmon;
+    margin-bottom: 15px;
+}
+#secA div:nth-child(2) a{
+    color: #000;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+#secA div:nth-child(2) a:hover{
+    background-color: rgba(255, 204, 0, 0.8);
+    color: #000;
+}
+#secA div:nth-child(2) p{
+    text-align: left;
+}
+#secA div:nth-child(3) {
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px 10px;
+    background-color: #000;
+}
+#secA div:nth-child(3) div{
+    
+    margin-top: 15px;
+    color: #fff;
+}
+#secA div:nth-child(3) .container h1{
+    margin: 15px 0;
+    color: rgba(255, 204, 0, 0.8);
+
+
+}
+#secA div:nth-child(4) h1{
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 40px;
+    color: rgb(15, 6, 6);
+    text-align: center;
+
+
+}
+/*****************************************************************/
+.secB article{
+    margin: auto;
+    margin-top: 10px;
+    padding: 70px 0;
+    width: 90%;
+    color:#fff;
+    border: 1px solid rgba(255, 204, 0, 0.8);
+    box-shadow: 0 0 3px 1px rgba(179, 143, 0, 0.8);
+}
+.secB article img{
+    width: 100%;
+}
+.secB div{
+    margin-top: -5px;
+
+    text-align: left;
+    width: 100%;
+    background-color: #000;
+    padding: 10px 5px;
+}
+.secB div h3{
+    color: rgba(255, 204, 0, 0.8);
+}
+
+/*****************************************************************/
+.secC {
+    background-color: #000;
+    margin-top: 10px;
+    
+    padding: 70px 0;
+}
+.secC .container{
+    margin: 50px auto;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.secC .container h1{
+    margin-bottom: 30px;
+    width: 100%;
+    color:rgb(224, 180, 2);
+    text-align: center;
+
+}
+.secC .container img {
+    width: 40%;
+    margin: 5%;
+    box-shadow: 0 0 4px 2px rgba(255, 206, 8, 0.8);
+
+}
+.secC div:last-of-type {
+    text-align: center;
+    background-color: rgb(238, 194, 0);
+    color: rgba(255, 255, 255, 1);
+    padding: 20PX 10PX;
+    box-shadow: 0 0 1px 2px rgba(179, 143, 0, 0.8);
+    text-align: center;
+    
+    
+
+}
+.secC div:last-of-type h1 {
+    color:#000;
+    margin: 10px;
+    width: 80%;
+}
+
+.secC div:last-of-type a{
+    color: #000;
+    display: inline-block;
+    margin: 10px  auto;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+}
+.secC div:last-of-type a:hover{
+    background-color: rgba(255, 204, 0, 0.8);
+    color: #000;
+}
+
+/*****************************************************************/
+.secD{
+    
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    
+    padding: 70px 30px 130px 30px;
+}
+.secD div>h1{
+    color:rgba(255, 204, 0, 1);
+    margin:30px 5px;
+    margin-bottom: 30px;
+}
+.secD div>p{
+    margin:30px 5px;
+}
+.secD .grid{
+    width: 95%;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 15px;
+}
+.secD .grid h1{
+    margin: 5px 5px;
+}
+.secD .grid p{
+    margin-left: 5px;
+    text-align: justify;
+}
+    
+.secD .grid div{
+    width: 100%;
+    
+}
+.secD .grid div img{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    
+    box-shadow: 0 0 5px 2px #cbb;
+}
+.secD .grid div p{
+    text-align: left;
+    
+}
+.secD .grid div h6{
+    text-align: left;
+    color: rgba(179, 143, 0, 1);
+    
+}
+
+
+
+
+
+
+
+
+
+/*****************************************************************/
+
+
+/*****************************************************************/
+.secE{
+    width: 100%;
+    padding: 70px 0;
+
+background: linear-gradient(RGBA(0,0,0,0.5),RGBA(0,0,0,0.5)),
+    url("../images/contactus.jpg") no-repeat center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.secE div{
+
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    /**
+    grid-template-columns: 2fr 1fr;
+    gap:30px;
+    */
+}
+.secE div h1{
+    width: 100%;
+    margin: 30px 0;
+    font-size: 32px;
+    color:rgb(255, 204, 0);
+   /* grid-column: 1;*/
+    text-align: center;
+}
+.secE div p{
+    width:100%;
+  /*  grid-column: 1;*/
+    text-align: left;
+}
+.secE div form{
+    margin-top: 40px;
+    width: 50%;
+    padding: 30px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 3px rgba(255, 204, 0, 1);
+   /* grid-column: 2;*/
+    text-align: left;
+}
+.secE div form input{
+    display: flex;
+    height: 30px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   /* grid-column: 2;*/
+    text-align: left;
+    border: none;
+    margin:5px auto;
+}
+.secE div form input[type="submit"]{
+    
+    background-color: rgba(179, 143, 0, 1);
+    box-shadow: 0 0 5px 3px rgba(255, 204, 0, 1);
+    color: #fff;
+    justify-content: center;
+    
+}
+
+
+
+
+/*****************************************************************/
+.secF{
+    background-color: #000;
+    color: #fff;
+    padding:30px auto;
+    border-top: 5px solid rgba(255, 204, 0, 1);
+
+}
+.secF div{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.secF article{
+    width: 25%;
+    border-top:.51px solid rgba(255, 255, 255, 0.8);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.secF article a{
+    margin-top: 10px;
+    color: #fff;
+}
+.secF article div {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.secF article div i {
+    font-size: 35px;
+    margin-right: 3px;
+}
+.secF article input{
+    margin-top: -45px;
+    height: 30px;
+    border:none;
+    border-radius: 3px;
+}
+
+.secF article button{
+    height: 30px;
+    background-color: rgba(255, 206, 8, 0.8);
+    border: none;
+    border-radius: 3px;
+    
+
+}
+
+
+
+/*****************************************************************/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container{
+        max-width:570px ; 
+        }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container{
+        max-width:720px ; 
+        }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container{
+        max-width:960px ; 
+        }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        max-width:1160px ; 
+        }
+
+        #secA {
+            background-image: url('../images/banner.jpg');
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            padding-top: 20px;
+        }
+        #secA div{
+        width:100%;
+        
+        }
+        #secA div nav{
+            width: 100%;
+            height: auto;
+           margin-top:auto;
+            display: flex;
+            flex-wrap:wrap;
+            
+            justify-content: center;
+            background-color: rgba(0, 0, 0,1);
+        }
+        #secA div nav span{
+           
+            display:inline;
+            width: 20%;
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 0;
+            overflow: visible; 
+        }
+        #secA div nav span a{
+            flex-grow: 0 ;
+            
+        }
+        #secA div nav span a i{
+            color: #fff;
+            font-size: 20px;
+            margin: 5px 10px;
+            border: 1px solid rgba(255, 204, 0, 0.8);;
+            border-radius: 50%;
+            padding:6px;
+        }
+        #secA div nav span label{
+            display:none;
+            width: 0;
+            text-align: right;
+            margin: 5px 10px;
+            flex-grow: 0;
+        }
+        #secA div nav span label i{
+            display: none;
+          
+            
+        }
+        
+        #secA div nav input{
+            display:none;
+        }
+        #secA div nav ul{
+            
+            
+            display: flex;
+            width: 70%;
+            align-self: flex-start;
+            padding:0% 3% 0% 3%;
+            background-color: rgba(0, 0, 0,.7);
+            max-height: auto;
+            overflow: visible;
+            
+        }
+        #secA div ul li{
+           width: 20%;
+            overflow: visible;
+            transition:3s ease-out;
+            border-bottom: none;
+            border-top: none;
+        }
+        #secA div ul li a:hover{
+            background-color: rgba(255, 204, 0, 0.8);
+            color: #000;
+        }
+        #secA div ul li  a{
+            padding-left:  10px;
+            padding-right: 10px;
+            flex-grow: 1;
+            width: 100%;
+            font-size: 15PX;
+            padding: 10px 0;
+            font-weight:bold;
+            text-transform: uppercase;
+            display:inline-block;
+            color: rgba(255, 255, 255, 1);
+            
+        }
+        
+      
+        #secA div {
+            margin-top: 0;
+            width: 100%;
+            text-align: left ;
+           
+        }
+        #secA div:nth-child(2){
+            padding-left: 5%;
+            width: 100%;
+            margin-top: 30px;
+            margin: 200px;
+            
+            
+        }
+        #secA div:nth-child(2) h1:first-of-type{
+            font-size: 40px;
+            text-align: left;
+        }
+        #secA div:nth-child(2) h1:nth-of-type(2){
+            text-align: left;
+            font-size: 40px;
+            
+            color: salmon;
+            margin-bottom: 15px;
+        }
+        #secA div:nth-child(2) a{
+            color: #000;
+            font-size: 30px;
+            margin-top: 50px;
+            padding: 5px 25px;
+            border-radius: 30px;
+            background-color: rgb(255, 255, 255);
+        }
+        #secA div:nth-child(2) a:hover{
+            background-color: rgba(255, 204, 0, 0.8);
+            color: rgb(255, 255, 255);
+        }
+        #secA div:nth-child(2) p{
+            text-align: left;
+        }
+        #secA div:nth-child(3) {
+            width: 100%;
+            margin-top: 50px;
+            padding: 30px 10px;
+            background-color: #000;
+        }
+        #secA div:nth-child(3) div{
+            
+            margin-top: 15px;
+            color: #fff;
+        }
+        #secA div:nth-child(3) .container h1{
+            margin: 15px 0;
+            color: rgba(255, 204, 0, 0.8);
+        
+        
+        }
+        #secA div:nth-child(4) h1{
+            padding: 15px 0;
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+        
+        }
+
+/*****************************************************************/
+.secB{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.secB article{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    width: 25%;
+    color:#fff;
+    border: 1px solid rgba(255, 204, 0, 0.8);
+    box-shadow: 0 0 3px 1px rgba(179, 143, 0, 0.8);
+}
+.secB article img{
+    width: 100%;
+}
+.secB  article div{
+    margin-top: -5px;
+
+    text-align: left;
+    width: 100%;
+    background-color: #000;
+    padding: 10px 5px;
+}
+.secB article div h3{
+    color: rgba(255, 204, 0, 0.8);
+}
+
+/*****************************************************************/
+.secC {
+    background-color: #000;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 25PX;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.secC .container h1{
+    width: 100%;
+    margin: 50px 0px;
+    font-size:  40px;
+    color:rgba(179, 143, 0, 1);
+    text-align: center;
+
+}
+.secC .container img {
+    width: 22%;
+    margin: 1%;
+    box-shadow: 0 0 2px 1px rgb(238, 194, 0);
+
+}
+.secC  div:last-of-type{
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(238, 194, 0);
+
+}
+.secC  div:last-of-type div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display:grid;
+    grid-template-columns: 5fr 1fr;
+    width: 100%;
+    background-color: rgb(238, 194, 0);
+    color: rgba(255, 255, 255, 1);
+    padding: 20PX 10PX;
+    box-shadow: 0 0 5px 2px rgba(179, 143, 0, 0.8);
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    
+
+}
+
+
+
+.secC  div:last-of-type div h6 {
+    display: flex;
+}
+.secC div:last-of-type div h1 {
+    color:#FFF;
+    margin: 10px;
+    text-align: left;
+    width: 70%;
+    display: flex;
+    grid-column: 1;
+}
+
+.secC div:last-of-type div a{
+    color: #000;
+    display: inline-block;
+    grid-column: 2 ;
+    margin: 10px  auto;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    align-self: flex-start;
+    justify-content: flex-end;
+}
+.secC div:last-of-type div a:hover{
+    background-color: rgba(104, 84, 3, 0.8);
+    color: #000;
+}
+
+
+/*****************************************************************/
+.secD{
+    padding: 50px 0px  130px 0px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+   
+}
+.secD div>h1{
+    margin:30px 5px;
+    margin-bottom: 30px;
+}
+.secD div>p{
+    margin:30px 5px;
+}
+.secD .grid{
+    width: 95%;
+    
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    justify-content: center;
+}
+.secD .grid h1{
+    margin: 5px 5px;
+}
+.secD .grid p{
+    margin-left: 5px;
+    
+    text-align: justify;
+}
+    
+.secD .grid div:first-of-type{
+    width: 50%;
+    justify-self: center;
+
+    
+}
+.secD .grid div img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 5px 2px #cbb;
+}
+.secD .grid div:last-of-type{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 70px;
+}
+
+
+.secD .grid div p{
+    text-align: left;
+    
+}
+.secD .grid div h6{
+    text-align: left;
+    color: rgba(179, 143, 0, 1);
+    
+}
+
+
+/*****************************************************************/
+.secE{
+    width: 100%;
+    padding: 50px 0 80px 0;
+
+background: linear-gradient(RGBA(0,0,0,0.5),RGBA(0,0,0,0.5)),
+    url("../images/contactus.jpg") no-repeat center center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.secE div{
+
+    width:100%;
+    display: grid;
+   
+    color: #fff;
+   
+    grid-template-columns: 2fr 1fr;
+    gap:1%;
+   
+}
+.secE div h1{
+    width: 100%;
+    text-align: left;
+    margin: 0 0 0 0 ;
+    font-size: 32px;
+    color:rgb(255, 204, 0);
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    align-self: center;
+}
+.secE div p{
+    width:100%;
+    margin-top: -90px;
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+    align-self: start;
+}
+
+/************جاري تهكير رقيه الجداوي **********/
+.secE div form{
+    width: 100%;
+    margin-top: 100px;
+   
+    padding: 30px 0px;
+    
+    box-shadow: 0 0 5px 3px rgba(255, 204, 0, 1);
+    grid-column: 2;
+    grid-row:1;
+    text-align: left;
+    align-self: center;
+}
+.secE div form input{
+    display: flex;
+    height: 30px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+   /* grid-column: 2;*/
+    text-align: left;
+    border: none;
+    margin:5px auto;
+}
+.secE div form input[type="submit"]{
+    
+    background-color: rgba(179, 143, 0, 1);
+    box-shadow: 0 0 5px 3px rgba(255, 204, 0, 1);
+    color: #fff;
+    justify-content: center;
+    
+}
+
+
+
+
+/*****************************************************************/
+
+
+
+
+
+
+
+
+
+
+	
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.container {
+		max-width: 1140px;
+	}
+
+}

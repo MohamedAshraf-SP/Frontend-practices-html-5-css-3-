@@ -1,0 +1,446 @@
+
+    
+    @font-face {
+        font-family:M ;
+        src: url(Fonts/EaJdz.ttf) format('truetype');
+    }
+    @font-face {
+        font-family:Z ;
+        src: url(Fonts/TEXT.otf) format('truetype');
+    }
+    @font-face {
+        font-family:Q ;
+        src: url(Fonts/TEXT1.otf) format('truetype');
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family:Z ;
+    }
+    body{
+      
+            font-family:Z ;
+        }
+        
+
+
+.secA nav{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20% 0 20%;
+   
+    
+}
+.secA nav h3{
+    color: rgb(253, 253, 253);
+    padding-right: 90PX;
+    margin-left: -20PX;
+}
+.secA nav h3>span{
+    color: RGB(255,144,0);
+}
+
+.secA nav a{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family:M ;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    display: inline-block;
+ 
+    font-family:Z;
+    font-size: 15;
+    text-transform: uppercase;
+    border-bottom:2PX solid RGB(255,144,0);
+    background-color: rgb(1, 2, 2);
+
+}
+.secA nav a:hover{
+    background-color:rgb(0, 126, 126);
+}
+
+    /* sec2*/
+
+.secB{
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/Banner-bg.jpg');
+    background-size: cover;background-repeat: no-repeat;
+    padding-bottom: 30px;
+    display: flex;
+   
+}
+.secB div{
+    width: 35%;
+    margin: auto;
+    align-items: center;
+   
+
+}
+.secB aside{
+    width: 35%;
+    height: 110%;
+    margin-right: 200PX;
+    margin-left: -50PX;
+    margin-top: 40PX;
+    justify-self: center;
+    align-items: center;
+    background-image: url('../images/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+    color: rgb(247, 244, 244);
+    
+  
+}
+
+.secB div h1{
+    color:RGB(255,144,0);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.secB div p{
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+.secB div button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 180px;
+    height: 50px;
+    color:rgb(248, 248, 246); 
+    background-color: rgb(241, 148, 7);
+    font-family:M;
+    font-size: 18   PX;
+    text-transform: uppercase;
+    transition-duration: 1s;
+}
+.secB div button:hover{
+    cursor: pointer;
+    background-color: rgb(134, 87, 0);
+}
+.secB aside div{
+    color:#fff;
+    margin-top: 220px;
+    height: 5%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-self:flex-end;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+    
+
+}
+.secB aside div{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.secB aside div i{ 
+    font-size: 17px;
+    margin-left: 15px;
+    color:rgba(255, 255, 255, 0.9);
+}
+.secB aside div span{
+    float: right;
+    text-transform: uppercase;
+    color: RGB(255,144,0);
+}
+.break{
+    height: 70px;
+    width: 100%;
+    background-color:RGB(241,243,245);
+}
+.secC{
+    width: 100%;
+    text-align: center;
+    padding-top: 150PX;
+}
+.secC h1,.secD h1,.secE h1,.secF h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-bottom: 25PX;
+}
+.secC>p,.secD>p,.secE>p,.secF>p{
+    border-bottom:2px solid RGB(255,144,0);
+    padding-bottom: 20px;
+}
+.secC P{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 10PX;
+  
+
+}
+.secC span button{
+    margin-top: 10px;
+    border: 1.5px solid rgba(73, 73, 73, 0.222);
+    border-radius: 0px;
+    width: 100px;
+    height: 40px;
+    color:rgb(0, 0, 0); 
+    background-color: rgba(150, 150, 150, 0.274);
+    font-family:M;
+    font-size: 15PX;
+    text-transform: uppercase;
+    transition-duration: 1s;
+    margin-bottom: 36px;
+}
+.secC span button:hover{
+    cursor: pointer;
+    background-color: rgb(228, 148, 0);
+
+}
+.secC div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.secC div img {
+   
+    width:35%;
+    height: 0.697*35%;
+  margin-left: 130px;
+
+}
+.secC div aside {
+    width: 60%;
+}
+.secC div aside h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 15%;
+}
+.secC div aside h5{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color:RGB(255,144,0);
+    text-align: left;
+    margin-left: 15%;
+}
+.secC div aside p{
+    text-align: left;
+
+}
+.secD,.secE,.secF{
+        width: 100%;
+        text-align: center;
+        padding-top: 80px;
+        background-image: url('../images/Services-bg.jpg');
+        background-size: cover;background-repeat: no-repeat;
+        padding-bottom: 30px;
+        color: #fff;    
+    }
+.secD>p,.secE>p,.secF>p{
+    width: 60%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .7;
+}
+.secD aside{
+    margin-top: 40px;
+    display:flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.secD aside article{
+    width: 22%;
+    height: 320px;
+    padding-top:70px;
+    display: block;
+    border:none;
+    border-radius: 1px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.secD aside article h3{
+    padding-top: 5px;
+    text-transform: capitalize;
+    opacity: .6;
+}
+.secD aside article:nth-child(1){
+ background-image: url('../images/Development-bg.jpg');
+ opacity: .6;
+}
+.secD aside article:nth-child(2){
+    background-image: url('../images/desgin-bg.jpg');
+    opacity: .6;
+}
+.secD aside article:nth-child(3){
+    background-image: url('../images/concept-bg.jpg');
+    opacity: .6;
+    
+}
+.secD aside article:nth-child(4){
+    background-image: url('../images/systam-bg.jpg');
+    opacity: .6;
+}
+.secD aside article:nth-child(1):hover{
+    
+    opacity: 1;
+   }
+   .secD aside article:nth-child(2):hover{
+      
+       opacity: 1;
+   }
+   .secD aside article:nth-child(3):hover{
+    
+       opacity: 1;
+   }
+   .secD aside article:nth-child(4):hover{
+
+       opacity: 1;
+   }
+   .secE{
+       background-image: none;
+       color: rgb(0, 0, 0);
+   }
+
+   .secE article{
+       width: 55%;
+       margin-left: auto;
+       margin-right: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgba(255, 255, 255, 0.9);
+       color: black;
+       padding: 0px;
+   }
+   .secE article div{
+        text-transform: capitalize;
+        padding-left: 20px;
+         padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+       
+      
+   }
+   .secE article div:nth-child(1){
+    width: 4%;
+   
+    padding-top: 49px;
+    padding-bottom: 49px;
+    background-color: RGB(255,144,0);
+    color:rgb(0, 0, 0);
+
+   }
+   .secE article div:nth-child(2){
+    padding-top: 49px;
+    padding-bottom: 49px;
+    width: 17%;
+    background-color: rgb(0, 0, 0);
+    color:RGB(255,144,0);
+        
+    }
+    .secE article div:nth-child(3),.secE article div:nth-child(4),.secE article div:nth-child(5),.secE article div:nth-child(6){
+        width: 15%;
+        opacity: .8;
+        background-color: RGB(241,243,245);
+       
+        border-right:1PX solid rgb(207, 205, 205);
+    }
+   
+    .secE article div:nth-child(7){
+        background-color: black;
+        color:#fff;
+
+        
+    }
+    .secF div {
+        margin-top: 50px;
+        display:flex;width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+
+    }
+    .secF div aside:nth-child(2) h2{
+        width: 100%;
+        text-transform: capitalize;
+        text-align: left;
+    }
+  .secF div aside:nth-child(1){
+      width: 30%;
+    
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+  }
+  .secF div aside:nth-child(2){
+    width: 50;
+    margin-left: 10%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.secF div aside:nth-child(2) p{
+    width: 100%;
+    text-align: left;
+    opacity: .8;
+}
+
+.secF div aside input{
+    width: 80%;
+    height: 30px;
+    border: none;
+    padding:5PX;
+
+}
+
+.secF div aside input[type="submit"]{
+    background-color: rgb(228, 148, 0);width: 80%; padding:5PX;
+
+
+}
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+} 

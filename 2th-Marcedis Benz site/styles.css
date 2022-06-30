@@ -1,0 +1,154 @@
+body{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(3, 9, 34);
+}
+.icons_bar{
+    
+    width: 800px;
+    height: 115px;
+    text-align: left;
+    padding-top: 2px;
+    padding-right: 2px;
+    background-image: url('images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size: cover;
+    border-bottom: seashell;
+    border-style: solid;
+    border: 1px ;
+    
+    
+
+}
+.icons_bar a{
+    float:right;
+    opacity: .5;
+}
+.icons_bar a:hover{
+    opacity: 1;
+}
+.nav_bar{
+    padding-left: 2px;
+    margin-left: -2px;
+    border-bottom: seashell;
+    align-items: flex-start;
+    border-style: solid;
+    width: 800px;
+    height: 40px;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    font-size: 17px;
+    
+}
+
+.nav_bar a{
+    text-align: center;
+    height: 28px;
+    margin-right: -5px;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    display: inline-block ;
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    text-transform:uppercase;
+   
+}
+.nav_bar  a:hover{
+     background-color:  rgb(0, 119, 255);
+     color: rgb(255, 255, 255);
+    }
+.banner img{
+        width: 801px;
+        height: 300;
+        border-bottom: seashell;
+        border-style: solid;
+        border: 2px;
+        
+    }
+.content{
+        background-color: ghostwhite;
+        margin-top: -5px;
+        display: inline-block;
+    }
+.left_div{
+    float: left;
+    width: 68%;
+    margin-left: 20px;
+    text-align: justify;
+    text-indent: 5px;
+    opacity:.90 ;
+    padding: 10px;
+}
+
+ h2{
+    height: 10px;
+    color: rgb(0, 119, 255);
+    text-transform: capitalize;
+    
+    
+}
+h4{
+    height: 7px;
+    color: rgb(255, 196, 0);
+    text-transform: capitalize;    
+}
+h4>h6{
+    height: 4px;
+    color: rgb(0, 225, 255);
+}
+.left_div img{
+    width:46%;
+    border: 2px;
+    border-style: double;
+}
+.right_div{
+    float: right;
+    width: 20%;
+    margin-right: 15px;
+    text-align: justify;
+    text-indent: 5px;
+    opacity:.90 ;
+
+    padding: 10px;
+    padding-top: -10px;
+}
+.right_div p{
+    margin-top: -5px;
+}
+h6{
+    text-align: center;
+    color:#fff;
+    
+}
+
+
+
+
+
+
+
+
+    /*
+ul{
+    
+    height: 50px;   
+    list-style: none;
+    color: rgb(255, 255, 255);
+    padding:0px 5px;
+   
+
+}
+li{
+    display: inline-block;
+    padding:0px 5px;
+    align-items: center;
+    width:auto ;
+    height: 50px;
+    color: rgb(255, 255, 255);
+
+
+}*/

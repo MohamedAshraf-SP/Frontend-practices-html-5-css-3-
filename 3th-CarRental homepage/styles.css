@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track
+      {
+      background:rgb(10, 10, 10);
+      border:solid 1px;
+  }
+::-webkit-scrollbar-track-piece{
+    color:rgb(241, 148, 7);
+}    
+::-webkit-scrollbar-thumb{
+    background-color: rgb(241, 148, 7);
+    border-radius: .5;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(134, 87, 0);
+    border-radius: .5;
+    transition-duration: 1s;
+}
+
+.sectionA{
+    background-image: url("images/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#navbar{
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    
+}
+
+#navbar img{
+    float: left;
+    padding: 15 5 15 5px ;
+}
+#navbar #headers{
+    margin-right: 100px;
+    float: right;
+    color:#fff;
+    padding-right: 70px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family:M;
+
+}
+#navbar #headers a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0 0 0px;
+    padding: 24 10 22 10px;
+    
+    
+
+}
+#navbar #headers a:hover{
+    color: black;
+
+    background-color: rgb(241, 148, 7);
+}
+#leftdiv{
+    align-content:center ;
+    width: 45%;
+    height: 30%;
+    float: left;
+    margin-top: 140px;
+    margin-left: -100px;
+    color: rgb(255, 255, 255);
+    
+
+    
+}
+@font-face {
+    font-family:M ;
+    src: url(Fonts/EaJdz.ttf) format('truetype');
+}
+@font-face {
+    font-family:Z ;
+    src: url(Fonts/TEXT.otf) format('truetype');
+}
+@font-face {
+    font-family:Q ;
+    src: url(Fonts/TEXT1.otf) format('truetype');
+}
+
+#leftdiv>h1{
+    color: rgb(241, 148, 7);
+    font-family:M;
+    font-size: 50PX;
+    
+}
+#leftdiv>h4{
+    color: rgb(255, 255, 255);
+    font-family:Z;
+}
+#leftdiv button{
+    border: none;
+    border-radius: 3px;
+    width: 260px;
+    height: 65px;
+    color:rgb(248, 248, 246); 
+    background-color: rgb(241, 148, 7);
+    font-family:M;
+    font-size: 25PX;
+    transition-duration: 1s;
+}
+#leftdiv button:hover{
+    cursor: pointer;
+    background-color: rgb(134, 87, 0);
+}
+#rightdiv{
+    text-align: center;
+    border: 1px;
+    border-radius:8px;
+    border-style: solid;
+    border-color: rgb(241, 148, 7);
+    background-color: rgba(87, 60, 2, 0.2);
+    height: 70%;
+    width: 24%;
+    float:right;
+    padding-top: 5;
+    padding-left: 15px ;
+    padding-right: 15px;
+    margin: 77 140 0 0px;
+    text-transform: capitalize;
+    
+    
+}
+#rightdiv input{
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    height: 29px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px ;
+    margin: 7.5px;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Z;
+}
+
+#rightdiv .half{
+    width: 44.3%;
+    height: 29px;
+
+}
+
+
+#rightdiv h3{
+
+    margin-top: 13px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-left:15px
+    ;
+    font-family:Z;
+}
+#rightdiv form button{
+    border: none;
+
+    padding: auto;
+    text-align: center;
+    padding: 5px ;
+    margin: 5px;
+    border-radius: 5px;
+    width: 90%;
+    height: 35  px;
+    color:rgb(248, 248, 246); 
+    background-color: rgb(241, 148, 7);
+    font-family:M;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 1s;
+}
+#rightdiv form button:hover{
+    cursor: pointer;
+    background-color: rgb(155, 101, 0);
+}
+
+.sectionB{
+    width: 100%;
+    height: 100vh;
+    font-family: z;
+    text-align: center;
+}
+.sectionB h1{
+    text-align: center;
+    font-family: Z;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-top: 60px;
+
+}
+.sectionB h6{
+    text-align: center;
+    font-family: Z;
+    text-transform: capitalize;
+    font-size: 15px;
+    opacity: .6;
+    margin-bottom: 30px;
+
+}
+.sectionB article{
+    width: 20%;
+    height:20%;
+    display:inline-block;
+    background-color: RGB(237,237,247);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+    
+}
+.sectionB article h5{
+    margin: 15 15 15 12px;
+
+    font-size: 22px;
+    font-family: Z;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.sectionB article p{
+    opacity: .8;
+}
+.sectionB article header{
+    display: inline-block;
+}
+.sectionB article header img{
+    padding-top: 5px;
+    display: inline-block;
+}
+.sectionC{
+    
+    width: 100%;
+    height: 100vh;
+    height: max-content;
+    font-family: z;
+    background-color: rgb(241, 148, 7);
+    padding: auto;
+    
+}
+.sectionC img{
+    width: 45%;
+    margin-right:5% ;
+    float: left;
+    box-shadow: 0 0 2px 1px rgb(241, 148, 7);
+}
+.sectionC aside{
+    width: 45%;
+    padding-top: 16vh;
+    float: right;
+    text-align: left;
+}
+.sectionC aside h1{
+    font-size: 40px;
+    text-transform: capitalize;
+
+}
+.sectionC aside h6{
+    opacity: .7;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.sectionC aside p{
+    opacity: .5;  
+}
+.sectionC aside button{
+   text-transform: uppercase;
+   width: 40%;
+  height: 50px;
+   background-color: rgb(255, 153, 0);
+   border: none;
+   font-family:M;
+   color:rgb(248, 248, 246); 
+   
+   padding-left: 25PX;
+   padding-right: 25PX;
+   text-align: center;
+   font-size: 20px; 
+   margin-top: 5px;
+   transition-duration: 1s;
+
+
+}
+
+.sectionC aside button:hover{
+cursor: pointer;
+background-color: rgb(155, 101, 0);
+}
+.clear{
+    clear: both; 
+}
+.sectionD{
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh;
+    font-family: z;
+    padding: auto;
+    
+}
+.sectionD>h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.sectionD img{
+    width: 45%;
+    box-shadow: 0 0 2px 1px rgb(241, 148, 7);
+    margin-left:5% ;
+    float: right;
+
+}
+.sectionD aside{
+    padding-top: 50px;
+    margin-left: 50px;
+    width: 40%;
+    margin-right:5% ;
+    float: left;
+    text-align: left;
+
+}
+.sectionD aside h2{
+    text-align: right;
+    color: rgb(241, 148, 7);
+}
+.sectionD aside h3{
+    text-transform: capitalize;
+   
+    color: rgb(31, 18, 0);
+}
+.sectionD  h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.sectionD h4{
+    text-align: center;
+    font-size: 18px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color:rgb(8, 6, 4);
+    font-family:z;
+    opacity: .6;
+    padding-right: auto;
+    padding-left: auto;
+
+
+}
+.sectionD aside h6{
+    opacity: .7;
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+.sectionD aside p{
+    opacity: .5;  
+}
+.sectionD aside button{
+   text-transform: uppercase;
+   width: 40%;
+   height: 45px;
+   background-color: rgb(8, 6, 4);
+   border: none;
+   font-family:M;
+   color:rgb(248, 248, 246); 
+   
+   padding-left: 25PX;
+   padding-right: 25PX;
+   text-align: center;
+   font-size: 20px; 
+   margin-top: 5px;
+   transition-duration: 1s;
+
+
+}
+
+.sectionD aside button:hover{
+cursor: pointer;
+background-color: rgb(155, 101, 0);
+}
+.sectionE{
+    
+    width: 100%;
+    height: 350px;
+    color: #fff;
+    background-image: url('images/callaction-bg.jpg');    
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    text-align: center;
+    
+
+}
+.sectionE div{
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0,.4);
+}
+.sectionE p{
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+}
+.sectionE h1,.sectionF h1{
+    margin-top: 50px;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family:z;
+    opacity: .9;
+
+}
+
+.sectionE p,.sectionF P{
+    padding-bottom: 20px;
+    opacity: .6;
+   
+
+}
+.sectionE button{
+    text-transform: uppercase;
+   width: 35%;
+  height: 40px;
+   background-color: rgb(255, 153, 0,0);
+   border: 1px solid;
+   border-color: rgb(255, 153, 0);
+   
+   font-family:z;
+   color:rgb(248, 248, 246); 
+   padding-left: 0PX;
+   padding-right: 0PX;
+   text-align: center;
+   font-size: 20px; 
+   margin-top: 5px;
+   transition-duration: 3s;
+}
+.sectionE button:hover{
+    background-color: rgb(255, 153, 0);
+    
+}
+.sectionF{
+    width: 100%;
+    text-align:left;
+    font-family: z;
+}
+.sectionF article{
+   
+box-shadow: 0 0 1px 1px rgb(241, 148, 7);
+width: 20%;
+}
+.sectionF article img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sectionF article h4{
+    font-size: 18px;
+    margin: 10 0 10 0px;
+
+
+}
+.sectionF  h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 13   ;
+
+}
+.sectionF  p{
+    
+    text-align: center;
+    margin-bottom: 20;
+}
+.sectionF article h5{
+    padding: 2 4 2 4px;
+    display:inline;
+    background-color: black;
+    margin-left: 3px;
+    color: white;
+
+}
+
+.sectionF div{
+    
+    display: flex;
+    justify-content: space-evenly;
+
+} 
+.sectionF div footer{
+    width: 100%;
+    opacity: .7;
+}
+.sectionF div footer .like{
+    width: 20px;
+    height: 20px;
+}
+.sectionF div footer .comment{
+    width: 20px;
+    height: 20px;
+}
+.sectionF div footer .left{
+    width: 35%;
+    float: left;
+}
+.sectionF div footer .right{
+    width: 50%;
+    float: right;
+
+}
+.sectionG{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 95%;
+    padding-left: 5%;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0);
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.sectionG article{
+    width:22%;
+    text-decoration: none;
+    font-family: z ;
+    color:#fff;
+    
+}
+.sectionG article h2{ 
+    color:rgb(202, 122, 2);
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.sectionG article div{
+    display: inline;
+} 
+
+
+.sectionG article a{
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    opacity: .7;
+    text-transform: capitalize;
+}
+.sectionG article a:hover{
+    opacity: 1;
+    color: rgb(255, 153, 0);
+}
+.social{
+    display:flex;
+}
+.last{
+    margin-top: 10px;
+    width:100%;
+    height: 35px;
+    display: flex;
+    margin-top: 10px;
+   opacity: .9;
+}
+.last h4{
+    opacity: .9;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.last input{
+    margin-top: 15px;
+    border-style: none;
+    background:white;
+    width: 70%;
+    height:30px;
+}
+.last button{
+    width:13%;
+    height: 30px;
+    border-style: none;
+    background-color: rgb(241, 148, 7);
+    
+}
+.last button i{
+
+    color:#fff;
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+

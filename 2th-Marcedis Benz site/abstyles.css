@@ -1,0 +1,99 @@
+body{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(3, 9, 34);
+}
+.icons_bar{
+    
+    width: 800px;
+    height: 115px;
+    text-align: left;
+    padding-top: 2px;
+    padding-right: 2px;
+    background-image: url('images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size: cover;
+    border-bottom: seashell;
+    border-style: solid;
+    border: 1px ;
+    
+    
+
+}
+.icons_bar a{
+    float:right;
+    opacity: .5;
+}
+.icons_bar a:hover{
+    opacity: 1;
+}
+.nav_bar{
+    padding-left: 2px;
+    margin-left: -2px;
+    border-bottom: seashell;
+    align-items: flex-start;
+    border-style: solid;
+    width: 800px;
+    height: 40px;
+    color: white;
+    background-color: rgb(12, 11, 11);
+    font-size: 17px;
+    
+}
+
+.nav_bar a{
+    text-align: center;
+    height: 28px;
+    margin-right: -5px;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    display: inline-block ;
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    text-transform:uppercase;
+   
+}
+.nav_bar  a:hover{
+     background-color:  rgb(0, 119, 255);
+     color: rgb(255, 255, 255);
+    }
+.banner img{
+        width: 801px;
+        height: 300;
+        border-bottom: seashell;
+        border-style: solid;
+        border: 2px;
+        
+    }
+.content{
+        background-color: ghostwhite;
+        margin-top: -5px;
+        display: inline-block;
+        padding:0 50px;
+        align-items: center;
+    }
+h2{
+        padding-left: 20px;
+        color: rgb(0, 119, 255);
+    }
+    .content div{
+        text-align: center;
+        
+    }
+.content  .pic{
+
+    border: rgb(162, 163, 151);
+    border-style:groove;
+    width:35%;
+    align-items: center;
+
+}
+h6{
+        text-align: center;
+        color:#fff;
+        
+    }
